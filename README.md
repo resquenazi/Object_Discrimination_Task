@@ -1,5 +1,5 @@
 # Object_Discrimination_Task
-###### part of project "Learning to see again:perceptual learning of simulated abnormal on-off-cell population responses in sighted individuals"
+###### This code was written for an experiment that simulates the abnormal on- and off-cell population responses elicited by electronic sight recovery technologies
 ###### code written by Rebecca Esquenazi with supervision by Ione Fine in Matlab
 
 ## About
