@@ -1,4 +1,4 @@
-# Object_Discrimination_Task
+# Object Discrimination Task
 ###### This code was written for an experiment that simulates the abnormal on- and off-cell population responses elicited by electronic sight recovery technologies
 ###### code written by Rebecca Esquenazi with supervision by Ione Fine in Matlab
 
