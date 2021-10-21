@@ -1,0 +1,8 @@
+filtered_scenes_objects_present/*
+filtered_scenes_objects_absent/*
+**/*.png
+**/*.mat
+*.m~
+*.gif
+*.tif
+*.avi
