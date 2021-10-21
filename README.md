@@ -12,7 +12,7 @@ All of the tasks (pre-test, training, and post-test) are the same, with slightly
 
 A brief fixation cue (0.5 s) began each trial. After a 0.5 s pause, a word cue told the participants what the target object was (e.g. “cup”, “clock”). Following the word cue, a scene with an overlaid object is displayed for up to 2s, or until the participant responds with a key press. To create a dynamic scene that more closely resembles naturalistic retinal input, and to encourage generalizable learning by creating more variation in the retinal image, there is a simulated ‘panning action’ within each 2s trial. The field of view drifts to the right or left, at a rate that is uniformly distributed between 0.21 and 0.52 degrees/s. The image also expanded or contracted at a maximum rate of 0.35 degrees/s. The task is performed using a custom built stereoscope.
 
-### **ObjectDiscriminationPre_Test.m & ObjectDsicrimination_PostTest.m**
+### **ObjectDiscrimination_PreTest.m & ObjectDsicrimination_PostTest.m**
 Each of these tasks are exactly the same, however results are automaticaly saved to different directories. The conditions below describe each pre-test. It is likely that participants may use a combination of strategies to decode the images. These tests monitor performance on the object recognition task before and after training, to assess how training affected learning. 
 
 #### ***Monocular Presentation***
@@ -25,5 +25,5 @@ Left and right eye filters were switched across the two eyes, such that the eye 
 The contrast-reversed image I’ was replaced by a 1/f noise pattern, such that the eye trained to view [I * F′] + [I’ * F] received [I * F′] + [1/f * F], and the eye trained to view [I * F] + [I’ * F′] received [I * F] + [1/f * F’].
 
 
-### **Object_Discrmimination_Training.m**
+### **ObjectDiscrmimination_Training.m**
 This is the main task used in the training phase of the study. 
