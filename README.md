@@ -1,6 +1,6 @@
 # Object_Discrimination_Task
-## part of project "Learning to see again:perceptual learning of simulated abnormal on-off-cell population responses in sighted individuals"
-## code written by Rebecca Esquenazi with supervision by Ione Fine
+###### part of project "Learning to see again:perceptual learning of simulated abnormal on-off-cell population responses in sighted individuals"
+###### code written by Rebecca Esquenazi with supervision by Ione Fine in Matlab
 
 ## About
 Many forms of artificial sight recovery, such as electronic implants and optogenetic proteins, generally cause simultaneous, rather than complementary firing of on- and off-center retinal cells. Here, using ‘virtual patients’ – sighted individuals viewing distorted input – we examine whether plasticity might compensate for abnormal neuronal population responses. Five participants were dichoptically presented with a combination of original and contrast-reversed images. Each image (I) and its contrast-reverse (I’) was filtered using a radial checkerboard (F) in Fourier space and its inverse (F’). [I * F′] + [I’* F] was presented to one eye, while [I * F] + [I’ * F′] was presented to the other, such that regions of the image that produced on-center responses in one eye produced off-center responses in the other eye, and vice versa. Participants continuously improved in a naturalistic object discrimination task over 20 one-hour sessions. Pre- and post-training tests suggest that performance improvements were due to two learning processes: learning to recognize objects with reduced visual information, and learning to suppress contrast-reversed image information in a non-eye-selective manner. These results suggest that, with training, it may be possible to adapt to the unnatural on- and off-cell population responses produced by electronic and optogenetic sight recovery technologies.
@@ -12,18 +12,18 @@ All of the tasks (pre-test, training, and post-test) are the same, with slightly
 
 A brief fixation cue (0.5 s) began each trial. After a 0.5 s pause, a word cue told the participants what the target object was (e.g. “cup”, “clock”). Following the word cue, a scene with an overlaid object is displayed for up to 2s, or until the participant responds with a key press. To create a dynamic scene that more closely resembles naturalistic retinal input, and to encourage generalizable learning by creating more variation in the retinal image, there is a simulated ‘panning action’ within each 2s trial. The field of view drifts to the right or left, at a rate that is uniformly distributed between 0.21 and 0.52 degrees/s. The image also expanded or contracted at a maximum rate of 0.35 degrees/s. The task is performed using a custom built stereoscope.
 
-### ObjectDiscriminationPre_Test.m & ObjectDsicrimination_PostTest.m
+### **ObjectDiscriminationPre_Test.m & ObjectDsicrimination_PostTest.m**
 Each of these tasks are exactly the same, however results are automaticaly saved to different directories. The conditions below describe each pre-test. It is likely that participants may use a combination of strategies to decode the images. These tests monitor performance on the object recognition task before and after training, to assess how training affected learning. 
 
-#### Monocular Presentation
+#### ***Monocular Presentation***
 Participants are shown the filtered image to the left or right eye only (randomly interleaved across trials).
 
-### Filter-switched
+#### ***Filter-switched***
 Left and right eye filters were switched across the two eyes, such that the eye trained to view [I * F′] + [I’ * F] received [I * F] + [I’ * F′], and vice versa.
 
-### 1/f Noise
+#### ***1/f Noise***
 The contrast-reversed image I’ was replaced by a 1/f noise pattern, such that the eye trained to view [I * F′] + [I’ * F] received [I * F′] + [1/f * F], and the eye trained to view [I * F] + [I’ * F′] received [I * F] + [1/f * F’].
 
 
-### Object_Discrmimination_Training.m
+### **Object_Discrmimination_Training.m**
 This is the main task used in the training phase of the study. 
